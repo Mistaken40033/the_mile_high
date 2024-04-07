@@ -3,26 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mile Colorful High</title>
+    <title>Colorado Weather Dashboard</title>
+    <link rel="stylesheet" href="/assets/script.js/style.css">
+    <link rel="stylesheet" href="/assets/script.js/script.js">
+    
 </head>
 <body>
-        <h1>Colorado Weather Dashboard </h1>
-        <div class="card">
-            <div class="search">
-            <input type="text" class=" search-bar">
-            <button>Search</button>
-        </div>
+  <div class="container">
+    <h1>Colorado Weather Dashboard</h1>
+    <form id="cityForm">
+        <input type="text" id="cityInput" placeholder="Enter city name">
+        <button type="submit">Get Weather</button>
+    </form>
+    <div id="weatherInfo"></div>
+</div>
+
+<script src="/assets/script.js/script.js"></script>
 
 
-        <nav class="navbar bg-body-tertiary">
-            <div class="container-fluid">
-              <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>
-            </div>
-          </nav>
-          <script src="/assets/script.js/script.js"></script>
-          <script src="assets/script.js/style.css"></script>
 </body>
 </html>
