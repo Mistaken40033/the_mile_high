@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Colorado Weather Dashboard</title>
-    <link rel="stylesheet" href="/assets/>
-    <link rel="stylesheet" href="/assets/script.js">
-    
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="assets/style.css">
 </head>
+
 <body>
-  <div class="container">
-    <h1>Colorado Weather Dashboard</h1>
-    <form id="cityForm">
+    <div class="container">
+        <h1>Colorado Weather Dashboard</h1>
+        <ul id="cityList"></ul>
+
         <input type="text" id="cityInput" placeholder="Enter city name">
-        <button type="submit">Get Weather</button>
-    </form>
-    <div id="weatherInfo"></div>
-</div>
+        <button id="searchButton">Search</button>
 
-<script src="/assets/script.js"></script>
+        <div id="fiveDayForecast"></div>
+        <ul ID="cityList"></ul>
+    </div>
 
-
+    <script src="assets/script.js"></script>
 </body>
+
 </html>
